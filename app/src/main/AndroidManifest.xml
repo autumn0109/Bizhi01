@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- XML的版本及编码方式 -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ly.bizhi">
+
+
+    <!--  android:icon="@mipmap/ic_launcher"  在手机中的图标 -->
+    <!--  android:label="@string/app_name"  在手机中的名称 -->
+    <!--  <intent-filter>  Activity可接受的Intent -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
